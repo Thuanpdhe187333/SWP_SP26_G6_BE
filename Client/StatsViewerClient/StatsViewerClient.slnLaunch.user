@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "StatsViewerClient\\StatsViewerClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

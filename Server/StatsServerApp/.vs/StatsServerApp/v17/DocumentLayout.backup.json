@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\dtos\\servermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\dtos\\servermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\business\\statisticmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\business\\statisticmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\dtos\\clientmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\dtos\\clientmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\network\\socketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\network\\socketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\dataacess\\statistictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\dataacess\\statistictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\dataacess\\statisticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\dataacess\\statisticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\dataacess\\statisticrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\dataacess\\statisticrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|d:\\ebook\\prn222\\lab1_prn\\server\\statsserverapp\\statsserverapp\\dataacess\\statisticdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DAD9799-4A78-4410-9F6A-7D7FCC8A5513}|StatsServerApp\\StatsServerApp.csproj|solutionrelative:statsserverapp\\dataacess\\statisticdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 25,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1285158110:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientMessage.cs",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Dtos\\ClientMessage.cs",
+              "RelativeDocumentMoniker": "StatsServerApp\\Dtos\\ClientMessage.cs",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Dtos\\ClientMessage.cs",
+              "RelativeToolTip": "StatsServerApp\\Dtos\\ClientMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:08:47.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServerMessage.cs",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Dtos\\ServerMessage.cs",
+              "RelativeDocumentMoniker": "StatsServerApp\\Dtos\\ServerMessage.cs",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Dtos\\ServerMessage.cs",
+              "RelativeToolTip": "StatsServerApp\\Dtos\\ServerMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:09:18.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SocketServer.cs",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Network\\SocketServer.cs",
+              "RelativeDocumentMoniker": "StatsServerApp\\Network\\SocketServer.cs",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Network\\SocketServer.cs",
+              "RelativeToolTip": "StatsServerApp\\Network\\SocketServer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:10:10.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Program.cs",
+              "RelativeDocumentMoniker": "StatsServerApp\\Program.cs",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Program.cs",
+              "RelativeToolTip": "StatsServerApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:00:06.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatisticType.cs",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\DataAcess\\StatisticType.cs",
+              "RelativeDocumentMoniker": "StatsServerApp\\DataAcess\\StatisticType.cs",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\DataAcess\\StatisticType.cs",
+              "RelativeToolTip": "StatsServerApp\\DataAcess\\StatisticType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:06:57.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\appsettings.json",
+              "RelativeDocumentMoniker": "StatsServerApp\\appsettings.json",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\appsettings.json",
+              "RelativeToolTip": "StatsServerApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-30T01:05:05.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatisticManager.cs",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Business\\StatisticManager.cs",
+              "RelativeDocumentMoniker": "StatsServerApp\\Business\\StatisticManager.cs",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\Business\\StatisticManager.cs",
+              "RelativeToolTip": "StatsServerApp\\Business\\StatisticManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:09:49.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatisticRepository.cs",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\DataAcess\\StatisticRepository.cs",
+              "RelativeDocumentMoniker": "StatsServerApp\\DataAcess\\StatisticRepository.cs",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\DataAcess\\StatisticRepository.cs",
+              "RelativeToolTip": "StatsServerApp\\DataAcess\\StatisticRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:08:28.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatisticRecord.cs",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\DataAcess\\StatisticRecord.cs",
+              "RelativeDocumentMoniker": "StatsServerApp\\DataAcess\\StatisticRecord.cs",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\DataAcess\\StatisticRecord.cs",
+              "RelativeToolTip": "StatsServerApp\\DataAcess\\StatisticRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:01:26.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatisticDbContext.cs",
+              "DocumentMoniker": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\DataAcess\\StatisticDbContext.cs",
+              "RelativeDocumentMoniker": "StatsServerApp\\DataAcess\\StatisticDbContext.cs",
+              "ToolTip": "D:\\EBOOK\\PRN222\\LAB1_PRN\\Server\\StatsServerApp\\StatsServerApp\\DataAcess\\StatisticDbContext.cs",
+              "RelativeToolTip": "StatsServerApp\\DataAcess\\StatisticDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T01:06:04.73Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
