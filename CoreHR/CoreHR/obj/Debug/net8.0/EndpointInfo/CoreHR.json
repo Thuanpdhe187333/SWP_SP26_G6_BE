@@ -1,0 +1,2039 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "CoreHR",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Departments": {
+      "get": {
+        "tags": [
+          "Departments"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Department"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Department"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Department"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Departments"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Departments/{id}": {
+      "get": {
+        "tags": [
+          "Departments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Department"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Departments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Department"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Departments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmploymentContracts": {
+      "get": {
+        "tags": [
+          "EmploymentContracts"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmploymentContract"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmploymentContract"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmploymentContract"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "EmploymentContracts"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmploymentContract"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmploymentContract"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmploymentContract"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmploymentContract"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmploymentContract"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmploymentContract"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/EmploymentContracts/{id}": {
+      "get": {
+        "tags": [
+          "EmploymentContracts"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmploymentContract"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmploymentContract"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmploymentContract"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "EmploymentContracts"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmploymentContract"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmploymentContract"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmploymentContract"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "EmploymentContracts"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users/{id}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Application": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "jobId": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalScore": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "appliedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "cvFileUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "interviews": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Interview"
+            },
+            "nullable": true
+          },
+          "job": {
+            "$ref": "#/components/schemas/JobPosting"
+          },
+          "screeningDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ScreeningDetail"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AttendanceLog": {
+        "type": "object",
+        "properties": {
+          "logId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "checkTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AttendanceSummary": {
+        "type": "object",
+        "properties": {
+          "summaryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "periodId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "totalWorkingDays": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "totalWorkingHours": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "totalOthours": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "lateMinutes": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "absentDays": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "period": {
+            "$ref": "#/components/schemas/PayrollPeriod"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BenefitAssignment": {
+        "type": "object",
+        "properties": {
+          "benefitAssignmentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "benefitName": {
+            "type": "string",
+            "nullable": true
+          },
+          "benefitType": {
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "effectiveFrom": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DailyTimesheet": {
+        "type": "object",
+        "properties": {
+          "timesheetId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "scheduleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "realCheckIn": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "realCheckOut": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "workingHours": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "actualOthours": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "lateMinutes": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "earlyLeaveMinutes": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "schedule": {
+            "$ref": "#/components/schemas/WorkSchedule"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Department": {
+        "type": "object",
+        "properties": {
+          "departmentId": {
+            "type": "string",
+            "nullable": true
+          },
+          "departmentName": {
+            "type": "string",
+            "nullable": true
+          },
+          "managerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "evaluationAssignments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EvaluationAssignment"
+            },
+            "nullable": true
+          },
+          "manager": {
+            "$ref": "#/components/schemas/User"
+          },
+          "users": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/User"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmploymentContract": {
+        "type": "object",
+        "properties": {
+          "contractId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "contractType": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "salaryType": {
+            "type": "string",
+            "nullable": true
+          },
+          "salaryRate": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "contractStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EvaluationAssignment": {
+        "type": "object",
+        "properties": {
+          "assignmentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "periodId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "employeeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "managerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "departmentId": {
+            "type": "string",
+            "nullable": true
+          },
+          "dueDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "department": {
+            "$ref": "#/components/schemas/Department"
+          },
+          "employee": {
+            "$ref": "#/components/schemas/User"
+          },
+          "manager": {
+            "$ref": "#/components/schemas/User"
+          },
+          "period": {
+            "$ref": "#/components/schemas/PayrollPeriod"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EvaluationCriterion": {
+        "type": "object",
+        "properties": {
+          "criteriaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "criteriaName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "maxScore": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "evaluationResultDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EvaluationResultDetail"
+            },
+            "nullable": true
+          },
+          "evaluationWeights": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EvaluationWeight"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EvaluationPolicy": {
+        "type": "object",
+        "properties": {
+          "policyId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "periodId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "policyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "policyDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "period": {
+            "$ref": "#/components/schemas/PayrollPeriod"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EvaluationResultDetail": {
+        "type": "object",
+        "properties": {
+          "detailId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "evaluationId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "criteriaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "score": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "comment": {
+            "type": "string",
+            "nullable": true
+          },
+          "criteria": {
+            "$ref": "#/components/schemas/EvaluationCriterion"
+          },
+          "evaluation": {
+            "$ref": "#/components/schemas/KpiEvaluation"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EvaluationWeight": {
+        "type": "object",
+        "properties": {
+          "weightId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "periodId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "criteriaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "weightPercentage": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "criteria": {
+            "$ref": "#/components/schemas/EvaluationCriterion"
+          },
+          "period": {
+            "$ref": "#/components/schemas/PayrollPeriod"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Interview": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "applicationId": {
+            "type": "string",
+            "nullable": true
+          },
+          "scheduledAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          },
+          "isReminderSent": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "status": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "finalDecision": {
+            "type": "string",
+            "nullable": true
+          },
+          "application": {
+            "$ref": "#/components/schemas/Application"
+          },
+          "interviewPanels": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InterviewPanel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InterviewPanel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "interviewId": {
+            "type": "string",
+            "nullable": true
+          },
+          "feedback": {
+            "type": "string",
+            "nullable": true
+          },
+          "interview": {
+            "$ref": "#/components/schemas/Interview"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "JobPosting": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "requirements": {
+            "type": "string",
+            "nullable": true
+          },
+          "salaryRange": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "publishedAt": {
+            "type": "string",
+            "nullable": true
+          },
+          "requestId": {
+            "type": "string",
+            "nullable": true
+          },
+          "applications": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Application"
+            },
+            "nullable": true
+          },
+          "request": {
+            "$ref": "#/components/schemas/RecruitmentRequest"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KpiEvaluation": {
+        "type": "object",
+        "properties": {
+          "evaluationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "periodId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "totalScore": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "bonusAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "evaluatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "evaluatedByNavigation": {
+            "$ref": "#/components/schemas/User"
+          },
+          "evaluationResultDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EvaluationResultDetail"
+            },
+            "nullable": true
+          },
+          "managerFeedbacks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ManagerFeedback"
+            },
+            "nullable": true
+          },
+          "period": {
+            "$ref": "#/components/schemas/PayrollPeriod"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LeaveBalance": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "leaveTypeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "year": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "remainingDays": {
+            "type": "number",
+            "format": "double"
+          },
+          "leaveType": {
+            "$ref": "#/components/schemas/LeaveType"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LeaveRequest": {
+        "type": "object",
+        "properties": {
+          "requestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "leaveTypeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "reason": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "managerComment": {
+            "type": "string",
+            "nullable": true
+          },
+          "leaveType": {
+            "$ref": "#/components/schemas/LeaveType"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LeaveType": {
+        "type": "object",
+        "properties": {
+          "leaveTypeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "typeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "isPaid": {
+            "type": "boolean"
+          },
+          "leaveBalances": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LeaveBalance"
+            },
+            "nullable": true
+          },
+          "leaveRequests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LeaveRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ManagerFeedback": {
+        "type": "object",
+        "properties": {
+          "feedbackId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "evaluationId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "managerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "feedbackContent": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "evaluation": {
+            "$ref": "#/components/schemas/KpiEvaluation"
+          },
+          "manager": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Payroll": {
+        "type": "object",
+        "properties": {
+          "payrollId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "periodId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "baseSalary": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "otamount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "bonusAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "penaltyAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "netSalary": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "calculatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "paidAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "calculatedByNavigation": {
+            "$ref": "#/components/schemas/User"
+          },
+          "payrollItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PayrollItem"
+            },
+            "nullable": true
+          },
+          "payslips": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Payslip"
+            },
+            "nullable": true
+          },
+          "period": {
+            "$ref": "#/components/schemas/PayrollPeriod"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PayrollItem": {
+        "type": "object",
+        "properties": {
+          "itemId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "payrollId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemType": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "payroll": {
+            "$ref": "#/components/schemas/Payroll"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PayrollPeriod": {
+        "type": "object",
+        "properties": {
+          "periodId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "periodName": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "attendanceSummaries": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AttendanceSummary"
+            },
+            "nullable": true
+          },
+          "evaluationAssignments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EvaluationAssignment"
+            },
+            "nullable": true
+          },
+          "evaluationPolicies": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EvaluationPolicy"
+            },
+            "nullable": true
+          },
+          "evaluationWeights": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EvaluationWeight"
+            },
+            "nullable": true
+          },
+          "kpiEvaluations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KpiEvaluation"
+            },
+            "nullable": true
+          },
+          "payrolls": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Payroll"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Payslip": {
+        "type": "object",
+        "properties": {
+          "payslipId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "payrollId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fileUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "payroll": {
+            "$ref": "#/components/schemas/Payroll"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RecruitmentRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "jobPostings": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/JobPosting"
+            },
+            "nullable": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RefShift": {
+        "type": "object",
+        "properties": {
+          "shiftId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shiftName": {
+            "type": "string",
+            "nullable": true
+          },
+          "startTime": {
+            "type": "string",
+            "format": "time"
+          },
+          "endTime": {
+            "type": "string",
+            "format": "time"
+          },
+          "standardHours": {
+            "type": "number",
+            "format": "double"
+          },
+          "isOvernight": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "shiftRequests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ShiftRequest"
+            },
+            "nullable": true
+          },
+          "workSchedules": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/WorkSchedule"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ScreeningDetail": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "applicationId": {
+            "type": "string",
+            "nullable": true
+          },
+          "criteriaName": {
+            "type": "string",
+            "nullable": true
+          },
+          "score": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          },
+          "application": {
+            "$ref": "#/components/schemas/Application"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ShiftRequest": {
+        "type": "object",
+        "properties": {
+          "requestId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shiftId": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "approvedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "approvedByNavigation": {
+            "$ref": "#/components/schemas/User"
+          },
+          "shift": {
+            "$ref": "#/components/schemas/RefShift"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateOfBirth": {
+            "type": "string",
+            "format": "date"
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "departmentId": {
+            "type": "string",
+            "nullable": true
+          },
+          "hireDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "attendanceLogs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AttendanceLog"
+            },
+            "nullable": true
+          },
+          "attendanceSummaries": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AttendanceSummary"
+            },
+            "nullable": true
+          },
+          "benefitAssignments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BenefitAssignment"
+            },
+            "nullable": true
+          },
+          "dailyTimesheets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DailyTimesheet"
+            },
+            "nullable": true
+          },
+          "department": {
+            "$ref": "#/components/schemas/Department"
+          },
+          "departments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Department"
+            },
+            "nullable": true
+          },
+          "employmentContracts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EmploymentContract"
+            },
+            "nullable": true
+          },
+          "evaluationAssignmentEmployees": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EvaluationAssignment"
+            },
+            "nullable": true
+          },
+          "evaluationAssignmentManagers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EvaluationAssignment"
+            },
+            "nullable": true
+          },
+          "interviewPanels": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InterviewPanel"
+            },
+            "nullable": true
+          },
+          "kpiEvaluationEvaluatedByNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KpiEvaluation"
+            },
+            "nullable": true
+          },
+          "kpiEvaluationUsers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KpiEvaluation"
+            },
+            "nullable": true
+          },
+          "leaveBalances": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LeaveBalance"
+            },
+            "nullable": true
+          },
+          "leaveRequests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LeaveRequest"
+            },
+            "nullable": true
+          },
+          "managerFeedbacks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ManagerFeedback"
+            },
+            "nullable": true
+          },
+          "payrollCalculatedByNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Payroll"
+            },
+            "nullable": true
+          },
+          "payrollUsers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Payroll"
+            },
+            "nullable": true
+          },
+          "recruitmentRequests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RecruitmentRequest"
+            },
+            "nullable": true
+          },
+          "shiftRequestApprovedByNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ShiftRequest"
+            },
+            "nullable": true
+          },
+          "shiftRequestUsers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ShiftRequest"
+            },
+            "nullable": true
+          },
+          "workScheduleAssignedByNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/WorkSchedule"
+            },
+            "nullable": true
+          },
+          "workScheduleUsers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/WorkSchedule"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorkSchedule": {
+        "type": "object",
+        "properties": {
+          "scheduleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shiftId": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "requestOthours": {
+            "type": "number",
+            "format": "double"
+          },
+          "isPublished": {
+            "type": "boolean"
+          },
+          "assignedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "assignedByNavigation": {
+            "$ref": "#/components/schemas/User"
+          },
+          "dailyTimesheets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DailyTimesheet"
+            },
+            "nullable": true
+          },
+          "shift": {
+            "$ref": "#/components/schemas/RefShift"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
